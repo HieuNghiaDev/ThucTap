@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    background-color: black;
+    overflow: hidden;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    float: left;
+}
+
+.header_menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header_menu a:hover {
+    background-color: #3a6fbe;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+left-div {
+    width: 70%;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 1px;
+}
+
+.right-div {
+    flex: 20%;
+    background-color: #e0e0e0;
+    padding: 1px;
+    align-items: center; 
+}
+
+.job-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-info {
+    background-color: rgb(240, 217, 177);
+    width: 43%;
+    padding: 1%;
+    border-radius: 15px;
+    margin: 4px 4px 4px 3%;
+    /* flex-grow: 1; */
+}
+
+.job-info a {
+    text-decoration: none;
+}
+
+.job-info img {
+    max-width: 100%;
+    height:35px;
+    margin-bottom: 1%;
+    display: block;
+}
+
+.job-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    /* flex-grow: 1; */
+}
+
+.salary {
+    display: inline-block;
+}
+
+.location {
+    display: inline;
+    padding-left:10%;
+}
+
+h4 {
+    margin: 1%;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: rgb(72, 26, 179);
+    /* padding: 5px;
+    border: 2px solid rgb(14, 10, 2); */
+}
+
+.pagination {
+    /* text-align: center; */
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ca8012;
+    text-decoration: none;
+    margin-left: 50%;
+}

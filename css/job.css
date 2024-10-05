@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: chocolate;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.searchbox {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    /* background: black; */
+}
+
+.search {
+    width: 70vw;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 13em;
+    /* margin-right: auto; */
+    justify-items: center;
+    border: 2px solid #ccc;
+    padding: 0 10px;
+}
+
+.sel-province {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    margin-top: 15px;
+}
+
+.sel-province .content {
+    margin-left: 20px; 
+}
+
+.sel-province h3 {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#pay,
+#province,
+#jobType {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 40px;
+    display: block;
+}
+
+
+.button {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+}
+
+.search::placeholder {
+    padding-left: 2%;
+}
+
+.button-search {
+    height: 43px;
+    width: 130px;
+    background-color: #f09f26;
+    color: #fff;
+    border: none; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* .title-job {
+    color: #f09f26;
+    font-size: 35px;
+    font-weight: bold;
+} */
+
+/* .col-9 {
+    border-top: 4px solid orange;
+    background-color: aliceblue;
+    border-radius: 15px;
+} */
+
+
+/* .col-3 {
+    background-color: orange;
+    border-radius: 15px;
+    height: 50%;
+} */
+
+.title-job {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4px;
+}
+  
+.footer a {
+    color: white;
+    text-decoration: none;
+}

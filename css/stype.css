@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: chocolate;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.searchbox {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+    /* background: black; */
+}
+
+.search {
+    width: 70vw;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 13em;
+    /* margin-right: auto; */
+    justify-items: center;
+    border: 2px solid #ccc; /* Thêm viền 2px màu xám */
+    padding: 0 10px; /* Thêm padding để tạo khoảng cách giữa nội dung và viền */
+}
+
+.sel-province {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    margin-top: 15px;
+}
+
+.sel-province .content {
+    margin-left: 20px; 
+}
+
+.sel-province h3 {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#pay,
+#province,
+#jobType {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 40px;
+    display: block;
+}
+
+
+.button {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+}
+
+.search::placeholder {
+    padding-left: 2%;
+}
+
+#image-container {
+    width: auto; 
+    height: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin:10px;
+}
+
+#display-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.left-div {
+    width: 70%;
+    height: auto;
+    background-color: #f0f0f0;
+    /* padding: 1px; */
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .right-div {
+    flex: 20%;
+    background-color: #e0e0e0;
+    padding: 1px;
+    align-items: center; 
+} */
+
+.job-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-info {
+    background-color: rgb(240, 217, 177);
+    width: 43%;
+    padding: 1%;
+    border-radius: 15px;
+    margin: 4px 4px 4px 3%;
+    /* flex-grow: 1; */
+}
+
+.job-info img {
+    max-width: 100%;
+    height:35px;
+    margin-bottom: 1%;
+    display: block;
+}
+
+.job-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    /* flex-grow: 1; */
+}
+
+.button-search {
+    height: 43px;
+    width: 130px;
+    background-color: #f09f26;
+    color: #fff;
+    border: none; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.salary {
+    display: inline-block;
+}
+
+.location {
+    display: inline;
+    padding-left:10%;
+}
+
+h4 {
+    margin: 1%;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: rgb(232, 170, 98);
+    /* padding: 5px;
+    border: 2px solid rgb(14, 10, 2); */
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ca8012;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.right-div {
+    flex: 30%; /* Tăng kích thước của right-div */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng bóng đổ */
+}
+
+.job-suggestion {
+    margin-top: 20px;
+}
+
+.suggested-job {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggested-job h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.suggested-job .salary,
+.suggested-job .location {
+    font-size: 14px;
+    color: #666;
+    margin: 3px 0;
+}
+
+.footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+  
+.footer a {
+    color: white;
+    text-decoration: none;
+}
